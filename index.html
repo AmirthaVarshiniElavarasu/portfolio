@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+
+</head>
+
+<body>
+    <header class="nav">
+        <div class="brand">
+            <div class="logo"><img src="logo-1.png" alt="logo"></div>
+        </div>
+        <div class="spacer"></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#tech">Tech Stack</a>
+            <a href="#Projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Fixed background canvas sits once, outside sections -->
+    <canvas id="bgCanvas"></canvas>
+
+    <main>
+        <!-- Home / Hero -->
+        <section class="hero Home" id="home">
+            <div class="vignette"></div>
+            <div class="content">
+                <div class="kicker">I'M</div>
+                <h1 class="title">AMIRTHA VARSHINI</h1>
+                <p class="tagline">Developer • Designer • Electronics Enthusiast — crafting smart and elegant solutions.
+                </p>
+                <div class="cta">
+                    <a class="btn" href="#Projects">View Work</a>
+                    <a class="btn" href="#contact">Get In Touch</a>
+                </div>
+                <div class="accent-bar"></div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="AboutMe" id="about">
+            <h2>About Me</h2>
+            <p>
+                I’m a passionate <strong>developer and electronics enthusiast</strong> with a love for creating
+                solutions that blend <strong>software, design, and hardware</strong>. My work spans from building
+                <strong>modern web applications</strong> with clean UI/UX to developing <strong>IoT projects and
+                    embedded systems</strong> that bring technology into everyday life.
+            </p>
+
+            <p>
+                I enjoy combining <strong>creativity and problem-solving</strong> to design products that are both
+                visually appealing and technically efficient. Always curious and eager to learn, I’m constantly
+                exploring new tools, frameworks, and technologies to sharpen my skills and push the boundaries of what I
+                can create. My goal is to <strong>develop impactful solutions</strong> that make technology more
+                accessible,
+                and to contribute to projects that <strong>inspire innovation and growth</strong>.
+            </p>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="TechStack" id="tech">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="card">
+                    <strong>Languages</strong>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>C/C++</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <strong>Frontend</strong>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>React</li>
+                        <li>HTML & CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Three.js</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <strong>Backend</strong>
+                    <ul>
+                        <li>Flask</li>
+                        <li>Node.js (Express)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <strong>Database</strong>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+                <div class="card span">
+                    <strong>Tools & Others</strong>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>GitHub</li>
+                        <li>Redis</li>
+                        <li>Figma</li>
+                        <li>ESP32</li>
+                        <li>Raspberry Pi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Projects -->
+        <section class="Projects" id="Projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <article>
+                    <h3>Quiz Master V2</h3>
+                    <p>
+                        Quiz Master V2 is a multi-user quiz platform built with <strong>Flask</strong>,
+                        <strong>SQLite</strong>, and <strong>Vue.js</strong>. It offers timed quizzes,
+                        score tracking with leaderboards, and role-based access (Admin & User).
+                        Admins can create and manage subjects, chapters, quizzes, and questions, while
+                        users can attempt quizzes and view results.
+                    </p>
+                    <p>
+                        The system also includes <strong>background workers</strong> powered by Redis + Celery
+                        for handling automated tasks like sending reminders, generating reports, and
+                        caching data for better performance.
+                    </p>
+                    <div class="Note">
+                        <p>
+                            <strong>Note:</strong> For demo purposes, you can log in as an Admin using the following
+                            credentials:
+                            <br>Email: <code>useradmin@email.com</code>
+                            <br>Password: <code>admin@1234</code>
+                            <br><em>Background workers (Redis & Celery) are available only in the local setup and not in
+                                the live demo.</em>
+                        </p>
+                    </div>
+                    <p>
+                        <a href="https://quiz-master-v2-226u.onrender.com" target="_blank">🌐 Live Demo</a> |
+                        <a href="https://github.com/AmirthaVarshiniElavarasu/Quiz-Master-Version-2" target="_blank">💻
+                            GitHub</a>
+                    </p>
+                </article>
+                <article>
+                    <h3>Quiz Master V1</h3>
+                    <p>
+                        Quiz Master V1 is the first version of the multi-user quiz platform built with
+                        <strong>Flask</strong>, <strong>Jinja2</strong>, <strong>HTML</strong>, <strong>CSS</strong>,
+                        and <strong>JavaScript</strong>. It supports role-based access where Admins can create
+                        subjects, chapters, quizzes, and questions, while Users can register, attempt quizzes,
+                        and view their scores.
+                    </p>
+                    <p>
+                        This version introduced <strong>timed quizzes</strong>, <strong>leaderboards</strong>,
+                        and basic admin management tools, laying the foundation for the more advanced features in V2.
+                    </p>
+                    <div class="Note">
+                        <p>
+                            <strong>Note:</strong> For demo purposes, you can log in as an Admin using the following
+                            credentials:
+                            <br>Email: <code>admin@mail.com</code>
+                            <br>Password: <code>admin@new</code>
+                        </p>
+                    </div>
+                    <p>
+                        <a href="https://quiz-master-app-sahp.onrender.com" target="_blank">🌐 Live Demo</a> |
+                        <a href="https://github.com/AmirthaVarshiniElavarasu/Quiz-Master-App" target="_blank">💻
+                            GitHub</a>
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Pico W Wi-Fi Car</h3>
+                    <p>
+                        Pico W Wi-Fi Car is a web-controlled robotic car built with
+                        <strong>Raspberry Pi Pico W</strong>, <strong>DC motors</strong>, and a
+                        <strong>servo motor</strong>. The car hosts a lightweight web server, allowing
+                        users to control movement and features in real time through any browser.
+                    </p>
+                    <p>
+                        This project includes controls for <strong>forward, backward, left, right</strong>,
+                        <strong>stop</strong>, <strong>LED toggle</strong>, and <strong>servo Paddle</strong> for
+                        interactive ball control,
+                        showcasing IoT-based robotics with embedded systems and web integration.
+                    </p>
+                    <div class="Note">
+                        <p>
+                            <strong>Note:</strong> The project runs on a local network, and the car can be
+                            controlled via mobile or desktop browser once connected to Wi-Fi.
+                        </p>
+                    </div>
+                    <p>
+                        <a href="https://github.com/AmirthaVarshiniElavarasu/Raspberry-Pi-Pico-W-Wi-Fi-car"
+                            target="_blank">💻
+                            GitHub</a>
+                    </p>
+                </article>
+                <article>
+                    <h3>ESP32 ESP-NOW Wi-Fi Car</h3>
+                    <p>
+                        ESP32 ESP-NOW Wi-Fi Car is a wireless-controlled robotic car built with
+                        <strong>ESP32</strong>, <strong>DC motors</strong>, and dual <strong>servo motors</strong>.
+                        It uses <strong>ESP-NOW protocol</strong> for low-latency communication between
+                        the transmitter and receiver, allowing precise control of movements and servo actions.
+                    </p>
+                    <p>
+                        The car supports <strong>forward, backward, left, right</strong>, <strong>stop</strong>,
+                        and a <strong>servo paddle</strong> for interactive object handling. It demonstrates
+                        IoT-based robotics, embedded systems integration, and wireless real-time control
+                        without relying on traditional Wi-Fi networks.
+                    </p>
+                    <div class="Note">
+                        <p>
+                            <strong>Note:</strong> The system operates on ESP-NOW, which works over short-range
+                            wireless communication. Both transmitter and receiver must be within range for control.
+                        </p>
+                    </div>
+                    <p>
+                        <a href="https://github.com/AmirthaVarshiniElavarasu/JoyStick-Controller-Car" target="_blank">💻
+                            GitHub</a>
+                    </p>
+                </article>
+
+
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="Achievements" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Secured <strong>2nd Runner-Up</strong> in the 5KM Marathon at <strong>Kampus Run, IIT
+                        Madras</strong>, demonstrating perseverance, discipline, and goal-oriented execution.</li>
+                <li>Served as <strong>Deputy Head of RoboSoccer 3.0</strong>, leading a team in planning and executing a
+                    robotics competition involving autonomous vehicles, showcasing leadership, coordination, and
+                    problem-solving.</li>
+
+            </ul>
+        </section>
+
+        <!-- Resume -->
+        <section class="Resume" id="resume">
+            <h2>Resume</h2>
+            <p>Download my latest resume to see more details about my skills, experience, and education.</p>
+            <a class="btn" href="Amirtha varshini E - Resume as on 23-08-2025.pdf"
+                download="Amirtha_Varshini_Resume_2025.pdf">Download Resume</a>
+        </section>
+
+    </main>
+
+    <!-- Footer after all content; not fixed -->
+    <footer id="contact">
+        <span>© <span id="year"></span> Amirtha Varshini Elavarasu —
+            <a href="mailto:amirthavarshinielavarasu@gmail.com">amirthavarshinielavarasu@gmail.com</a>
+        </span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
