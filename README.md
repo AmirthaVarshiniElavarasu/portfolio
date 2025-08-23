@@ -25,6 +25,11 @@ Welcome to my personal portfolio! I am a **Full-Stack Developer** passionate abo
 
 ---
 
+## 📄 Resume
+[Download Resume](Amirtha%20varshini%20E%20-%20Resume%20as%20on%2023-08-2025.pdf)
+
+---
+
 ## 📫 Contact
 Email: [amirthavarshinielavarasu@gmail.com](mailto:amirthavarshinielavarasu@gmail.com)  
 Portfolio: [Your Live Portfolio Link](https://your-portfolio-live-link.com)
