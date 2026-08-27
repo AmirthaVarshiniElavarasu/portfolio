@@ -23,9 +23,11 @@
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
             <a href="#tech">Tech Stack</a>
             <a href="#Projects">Projects</a>
-            <a href="#achievements">Achievements</a>
+            <a href="#achievements">Leadership</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -41,7 +43,9 @@
             <div class="content">
                 <div class="kicker">I'M</div>
                 <h1 class="title">AMIRTHA VARSHINI</h1>
-                <p class="tagline">Developer • Designer • Electronics Enthusiast — crafting smart and elegant solutions.
+                <p class="tagline">BS Data Science student at IIT Madras who ships production software — Python, Java,
+                    JavaScript, SQL and REST APIs. Looking for a software development internship where I can own a feature
+                    from design to production.
                 </p>
                 <div class="cta">
                     <a class="btn" href="#Projects">View Work</a>
@@ -55,20 +59,116 @@
         <section class="AboutMe" id="about">
             <h2>About Me</h2>
             <p>
-                I’m a passionate <strong>developer and electronics enthusiast</strong> with a love for creating
-                solutions that blend <strong>software, design, and hardware</strong>. My work spans from building
-                <strong>modern web applications</strong> with clean UI/UX to developing <strong>IoT projects and
-                    embedded systems</strong> that bring technology into everyday life.
+                I’m a third-year <strong>BS Data Science student at IIT Madras</strong> (CGPA 9.0) who ships
+                <strong>production software</strong> for the programme office. Most recently I took the
+                <strong>IITM Course Planner</strong> from a single-programme tool to a
+                <strong>multi-programme platform</strong>, and owned the Electronic Systems and Aeronautics &amp; Space
+                Technology rollout through to release.
             </p>
 
             <p>
-                I enjoy combining <strong>creativity and problem-solving</strong> to design products that are both
-                visually appealing and technically efficient. Always curious and eager to learn, I’m constantly
-                exploring new tools, frameworks, and technologies to sharpen my skills and push the boundaries of what I
-                can create. My goal is to <strong>develop impactful solutions</strong> that make technology more
-                accessible,
-                and to contribute to projects that <strong>inspire innovation and growth</strong>.
+                I’m comfortable across <strong>Python, Java, JavaScript, SQL</strong> and
+                <strong>REST API design</strong>, and I enjoy combining <strong>creativity and problem-solving</strong>
+                to build products that are both reliable and well designed. Always curious and eager to learn, I’m
+                looking for a <strong>software development internship</strong> where I can own a feature from design to
+                production.
             </p>
+        </section>
+
+        <!-- Education -->
+        <section class="Education" id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <article>
+                    <div class="row">
+                        <h3>Indian Institute of Technology Madras</h3>
+                        <span class="date">2024 – Present</span>
+                    </div>
+                    <p class="role">B.S. in Data Science and Applications — Third year | CGPA: 9.0 / 10</p>
+                    <p>
+                        Relevant coursework: Data Structures &amp; Algorithms (Python), Programming Concepts using Java,
+                        Database Management Systems, Modern Application Development I &amp; II (+ projects), System
+                        Commands (Linux/Bash), Computational Thinking.
+                    </p>
+                </article>
+                <article>
+                    <div class="row">
+                        <h3>Justice Basheer Ahmed Sayeed College for Women</h3>
+                        <span class="date">2018 – 2021</span>
+                    </div>
+                    <p class="role">B.Com — CGPA: 7.6 / 10</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="Experience" id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <article>
+                    <div class="row">
+                        <h3>Tech Intern — Operations &amp; Software Development</h3>
+                        <span class="date">through Oct 2026</span>
+                    </div>
+                    <p class="role">BS Programme Team, IIT Madras</p>
+                    <ul>
+                        <li>
+                            Extended the IITM BS Course Planner — a Flask / PostgreSQL application used by online-degree
+                            students to plan terms against prerequisite and progression rules — from a Data Science-only
+                            tool into a multi-programme platform, and owned the Electronic Systems and Aeronautics &amp;
+                            Space Technology rollout through to production.
+                        </li>
+                        <li>
+                            Introduced a single per-programme configuration module holding credit caps, exit tiers,
+                            progression checkpoints and permitted programme switches, so course-availability, planner and
+                            dashboard logic stopped hard-coding one degree’s rules; backed it with 18 ES/AE test modules
+                            inside a 190-test pytest suite.
+                        </li>
+                        <li>
+                            Mapped BigQuery warehouse datasets to programme codes and repaired the email-domain migration
+                            path so ES and AE students resolved to the correct account on first login; wrote a data-safe
+                            schema-normalisation migration (surrogate primary key, indexed account_id) using stub inserts
+                            in place of orphan deletes.
+                        </li>
+                        <li>
+                            Built Django applications that automate exam eligibility processing — category-wise pass marks
+                            and grace-mark rules previously applied by hand across TSV mark sheets — and a FastAPI service
+                            on Railway that generates travel-allowance PDFs from Google Forms submissions.
+                        </li>
+                        <li>
+                            Work through peer code review with the programme team and maintain the NPTEL Local Chapter
+                            database; a joint pre-release audit before the ES/AE launch caught seven crash and
+                            authentication defects before they reached students.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <div class="row">
+                        <h3>Front-End Development Intern</h3>
+                        <span class="date">Aug 2025 – Sep 2025</span>
+                    </div>
+                    <p class="role">Edunet Foundation (AICTE &amp; IBM SkillsBuild)</p>
+                    <ul>
+                        <li>
+                            Completed a 6-week programme building responsive web interfaces in HTML, CSS and JavaScript,
+                            working to industry review and delivery workflows.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <div class="row">
+                        <h3>Junior Accounts Executive</h3>
+                        <span class="date">Nov 2021 – Mar 2023</span>
+                    </div>
+                    <p class="role">Veranda Race, Chennai</p>
+                    <ul>
+                        <li>
+                            Automated recurring reconciliation and reporting workflows, cutting manual effort in the
+                            monthly close and reducing data-entry errors across branch submissions.
+                        </li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
         <!-- Tech Stack -->
@@ -78,23 +178,12 @@
                 <div class="card">
                     <strong>Languages</strong>
                     <ul>
-                        <li>Python (Advanced)</li>
-                        <li>JavaScript (Intermediate)</li>
-                        <li>Java (Intermediate)</li>
-                        <li>C / C++ (Basic)</li>
-                    </ul>
-                </div>
-
-                <div class="card">
-                    <strong>Frontend</strong>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>Vue.js</li>
-                        <li>React.js</li>
-                        <li>Next.js</li>
-                        <li>Mantine UI</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML / CSS</li>
+                        <li>C / C++ (basic)</li>
                     </ul>
                 </div>
 
@@ -102,31 +191,51 @@
                     <strong>Backend</strong>
                     <ul>
                         <li>Flask</li>
-                        <li>Node.js (Express.js)</li>
+                        <li>FastAPI</li>
+                        <li>Django</li>
+                        <li>Node.js / Express.js</li>
                         <li>NestJS</li>
+                        <li>SQLAlchemy</li>
+                        <li>TypeORM</li>
+                        <li>REST API design</li>
                         <li>Redis</li>
                     </ul>
                 </div>
 
                 <div class="card">
-                    <strong>Database</strong>
+                    <strong>Frontend</strong>
+                    <ul>
+                        <li>Vue.js</li>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                        <li>Bootstrap</li>
+                        <li>Mantine UI</li>
+                        <li>Responsive layout</li>
+                        <li>Chart.js</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <strong>Data &amp; Tools</strong>
                     <ul>
                         <li>PostgreSQL</li>
-                        <li>SQLite</li>
-                        <li>SQLAlchemy</li>
-                        <li>TypeORM</li>
+                        <li>MySQL</li>
+                        <li>BigQuery</li>
+                        <li>pytest</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>GitHub Actions</li>
+                        <li>Docker</li>
+                        <li>Linux / Bash</li>
+                        <li>Google Apps Script</li>
                     </ul>
                 </div>
 
                 <div class="card span">
-                    <strong>Tools & Platforms</strong>
+                    <strong>Platforms</strong>
                     <ul>
-                        <li>VS Code</li>
-                        <li>GitHub</li>
-                        <li>Figma</li>
-                        <li>Canva</li>
                         <li>Vercel</li>
                         <li>Render</li>
+                        <li>Railway</li>
                     </ul>
                 </div>
             </div>
@@ -165,11 +274,11 @@
                 <article>
                     <h3>Quiz Master V2</h3>
                     <p>
-                        Quiz Master V2 is a multi-user quiz platform built with <strong>Flask</strong>,
-                        <strong>SQLite</strong>, and <strong>Vue.js</strong>. It offers timed quizzes,
-                        score tracking with leaderboards, and role-based access (Admin & User).
-                        Admins can create and manage subjects, chapters, quizzes, and questions, while
-                        users can attempt quizzes and view results.
+                        Quiz Master V2 is an <strong>API-first quiz platform</strong> built with
+                        <strong>Flask-RESTful</strong>, <strong>SQLAlchemy</strong>, <strong>Vue.js</strong>,
+                        <strong>Bootstrap</strong> and <strong>Chart.js</strong>. It offers role-based access for admins
+                        and students, timed attempts with automatic evaluation on submit, and Chart.js analytics
+                        summarising per-subject performance. REST endpoints are consumed by a Vue single-page app.
                     </p>
                     <p>
                         The system also includes <strong>background workers</strong> powered by Redis + Celery
@@ -182,7 +291,7 @@
                             credentials:
                             <br>Email: <code>useradmin@email.com</code>
                             <br>Password: <code>admin@1234</code>
-                            <br><em>Background workers (Redis & Celery) are available only in the local setup and not in
+                            <br><em>Background workers (Redis &amp; Celery) are available only in the local setup and not in
                                 the live demo.</em>
                         </p>
                     </div>
@@ -192,6 +301,20 @@
                             GitHub</a>
                     </p>
                 </article>
+
+                <article>
+                    <h3>DocuGuard — Semantic Consistency Engine</h3>
+                    <p>
+                        <strong>DocuGuard</strong> is a document-verification service built with
+                        <strong>FastAPI</strong>, <strong>PaddleOCR</strong>, <strong>spaCy</strong> and
+                        <strong>OpenCV</strong>. It runs OCR over scanned bank documents and flags
+                        <strong>semantic inconsistencies</strong> between fields across pages as candidate fraud signals.
+                    </p>
+                    <p>
+                        <a href="https://github.com/AmirthaVarshiniElavarasu" target="_blank">💻 GitHub</a>
+                    </p>
+                </article>
+
                 <article>
                     <h3>Quiz Master V1</h3>
                     <p>
@@ -222,19 +345,27 @@
             </div>
         </section>
 
-        <!-- Achievements -->
+        <!-- Leadership & Activities -->
         <section class="Achievements" id="achievements">
-            <h2>Achievements</h2>
+            <h2>Leadership &amp; Activities</h2>
             <ul>
                 <li>
-                    Secured a <strong> 9.0  </strong> CGPA in Diploma in Programming, reflecting strong academic excellence. 
-                    Demonstrated consistent performance and proficiency in core programming subjects.</li>
-                <li>Secured <strong>2nd Runner-Up</strong> in the 5KM Marathon at <strong>Kampus Run, IIT
-                        Madras</strong>, demonstrating perseverance, discipline, and goal-oriented execution.</li>
-                <li>Served as <strong>Deputy Head of RoboSoccer 3.0</strong>, leading a team in planning and executing a
-                    robotics competition involving autonomous vehicles, showcasing leadership, coordination, and
-                    problem-solving.</li>
-
+                    <strong>Event Head, RoboSoccer 5.0 — Paradox ’26, IIT Madras.</strong> Led planning and execution
+                    for the RoboSoccer event across a volunteer team: sponsorship outreach (NukePC, HCL GUVI, Karthikesh
+                    Robotics), volunteer recruitment, and workshops on ESP32/Pico microcontrollers and motor drivers.
+                </li>
+                <li>
+                    Built a <strong>WiFi-controlled robot</strong> on ESP32 with L298N drivers and WebSocket control,
+                    and an <strong>FPV RC car</strong> on XIAO ESP32S3 Sense with NRF24L01 radio.
+                </li>
+                <li>
+                    Maintained a <strong>9.0 CGPA</strong> in the B.S. in Data Science and Applications at IIT Madras,
+                    reflecting consistent performance across core programming and systems coursework.
+                </li>
+                <li>
+                    Secured <strong>2nd Runner-Up</strong> in the 5KM Marathon at <strong>Kampus Run, IIT Madras</strong>,
+                    demonstrating perseverance, discipline, and goal-oriented execution.
+                </li>
             </ul>
         </section>
 
@@ -252,6 +383,10 @@
     <footer id="contact">
         <span>© <span id="year"></span> Amirtha Varshini Elavarasu —
             <a href="mailto:amirthavarshinielavarasu@gmail.com">amirthavarshinielavarasu@gmail.com</a>
+            &nbsp;•&nbsp;
+            <a href="https://linkedin.com/in/amirtha-varshini-elavarasu" target="_blank">LinkedIn</a>
+            &nbsp;•&nbsp;
+            <a href="https://github.com/AmirthaVarshiniElavarasu" target="_blank">GitHub</a>
         </span>
     </footer>
 
